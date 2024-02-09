@@ -8,9 +8,6 @@ const Layout = () => {
     <>
       <Header />
       <Outlet />
-      {/* FIXME:
-          - fix footer
-      */}
       <Footer />
     </>
   );

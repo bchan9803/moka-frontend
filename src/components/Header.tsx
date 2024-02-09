@@ -6,9 +6,11 @@ const Header = () => {
 
   const navigate = useNavigate();
 
+
   const logout = () => {
     setCookies('access_token', '');
-    window.localStorage.clear("userId");
+    // window.localStorage.clear("userId");
+    window.localStorage.clear();
     navigate('/');    // redirect to home page
     navigate(0);
   };

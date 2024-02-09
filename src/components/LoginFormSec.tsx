@@ -29,7 +29,7 @@ const LoginFormSec = () => {
       navigate('/');      // redirect to home page
     }
     catch (err) {
-      document.querySelector('.form-error-alert').style.display = 'block';
+      document.querySelector<HTMLElement>('.form-error-alert').style.display = 'block';
       console.error(err);
     }
   };

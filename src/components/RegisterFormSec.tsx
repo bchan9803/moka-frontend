@@ -21,7 +21,7 @@ const RegisterFormSec = () => {
       console.log('account created!');
     }
     catch (err) {
-      document.querySelector('.form-error-alert').style.display = 'block';
+      document.querySelector<HTMLElement>('.form-error-alert').style.display = 'block';
       console.error(err);
     }
   };

@@ -39,4 +39,4 @@ Since <em><strong>Moka!'s</strong></em> back end is being hosted on a different 
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [MIT License](LICENSE.txt) - see the [LICENSE.txt](LICENSE.txt) file for details.
